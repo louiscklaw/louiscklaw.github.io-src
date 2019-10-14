@@ -59,35 +59,37 @@ function js_compress() {
         .pipe( dest( PUBLIC_JS, ) )
 }
 
-function handle_img_files () {
+function down_sample_image ( done ) {
+    src( 'client/templates/assets/**/*.jpg' )
+        .pipe( dest( PUBLIC_ASSETS + '/down_sampled' ) );
+    return done();
+}
+function handle_img_files (done) {
     src( 'client/templates/assets/share-button/*' )
         .pipe( dest( PUBLIC_ASSETS+'/share-button' ) );
 
     src( 'client/templates/assets/**/*' ).pipe( dest( PUBLIC_ASSETS ) );
 
+
     src( 'client/templates/assets/proj_thumbnails/*.jpg' )
         .pipe( imageResize( {
             width: 500,
             height: 400,
-            crop: true,
+            crop: false,
             upscale: false
         } ) )
         .pipe( dest( PUBLIC_ASSETS+'/proj_thumbnails' ) );
 
-    return src( 'client/templates/assets/proj_thumbnails/*.png' )
-        .pipe( imageResize( {
-            width: 500,
-            height: 400,
-            crop: true,
-            upscale: false
-        } ) )
-        .pipe( dest( PUBLIC_ASSETS+'/proj_thumbnails' ) );
+    return done();
 }
 
 exports.js = js;
 exports.css = css;
 exports.html = html;
-exports.default = series(
-    parallel(handle_img_files,css, js),
-    js_compress, html
-    );
+exports.default = parallel(
+    handle_img_files,
+    down_sample_image,
+    css,
+    series( js, js_compress ),
+    html
+);

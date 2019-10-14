@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gulp_regen": "nodemon -w ./client --ext '*' --exec gulp"
+    "gulp_regen": "nodemon -w ./client -w ./gulpfile.js --ext '*' --exec gulp"
   },
   "keywords": [],
   "author": "",
