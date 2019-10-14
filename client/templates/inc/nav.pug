@@ -1,0 +1,25 @@
+.nav
+    .nav-hamburger
+        button(class="hamburger hamburger--arrowalt " type="button" onclick="process_menu();")
+            span(class="hamburger-box")
+                span(class="hamburger-inner")
+
+    .nav-content(class='flexflow-top-down')
+        .greeting-plate Hi, I'm louis 👋
+
+    .nav-img-row
+        .author-image
+            img(src="assets/avatar.jpeg")
+
+    include main_menu.pug
+            .qr_img
+                img(src="assets/qr_img.png", alt="https://louiscklaw.github.io")
+
+    .footer-link ❤️ coded by louiscklaw.<br>Built on the solder of and <br>
+        +page_link("these giants", "#credits")
+
+    .source-link
+        p
+            <a href="//github.com/louiscklaw/louiscklaw.github.io-src" target="_blank">source code here<i class="fas fa-external-link-alt"></i></a>
+
+    .copy-right 2019 louiscklaw

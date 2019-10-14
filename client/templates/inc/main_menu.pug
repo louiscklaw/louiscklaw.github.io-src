@@ -1,0 +1,32 @@
+.main-menu
+    ul(class="nav-list")
+        li
+            +page_link("about", "#about")
+        li
+            +page_link("projects", "#proj_home")
+        li
+            +page_link("logs", "#log")
+        li
+            +page_link_new_window("google dashboard", "https://louiscklaw.github.io/google-search-trends/")
+
+    .menu-bottom
+        ul(class="social-list")
+            li
+                +fa_icon_link("fab fa-facebook", "https://www.facebook.com/louiscklaw")
+                +img_link("https://img.icons8.com/nolan/64/000000/facebook-new.png", "www.facebook.com")
+            li
+                +fa_icon_link("fab fa-github", "https://github.com/louiscklaw")
+                +img_link("https://img.icons8.com/nolan/64/000000/github.png", "www.facebook.com")
+
+            li(class="hide-in-mobile")
+                +fa_icon_link("fab fa-keybase", "https://keybase.io/louiscklaw")
+            li
+                +fa_icon_link("fab fa-linkedin", "https://www.linkedin.com/in/louiscklaw")
+                +img_link("https://img.icons8.com/nolan/64/000000/linkedin.png", "www.facebook.com")
+
+            li(class="hide-in-mobile")
+                +fa_icon_link("fab fa-slack", "https://louislabs.slack.com")
+
+            li
+                +fa_icon_link("fab fa-telegram", "https://t.me/louislabs")
+                +img_link("https://img.icons8.com/nolan/64/000000/telegram-app.png", "www.facebook.com")
