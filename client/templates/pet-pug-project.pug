@@ -1,14 +1,18 @@
 include ./mixins.pug
 
-.post-container(class="flexflow-top-down")
-    .post-content
-        +post-header('pet pug project', '#pet-pug-project')
-        +hello_post-meta
-        //- +caption_img("https://raw.githubusercontent.com/louiscklaw/tradingview-tile-tryout/master/src/img/sc.png","tradingview dashboard screenshot")
+.post-container.flexflow-top-down
+  .post-content
+    +post-header('pet pug project' , '#pet-pug-project')
+    +hello_post-meta
+    //- +caption_img("https://raw.githubusercontent.com/louiscklaw/tradingview-tile-tryout/master/src/img/sc.png","tradingview dashboard screenshot")
 
-        h3 current working on this project
+    h3.title.is-4 current working on this project
 
-        +back_to_project_home
+    h3.title.is-4 References
+    ul
+      li https://github.com/jenil/bulmaswatch
 
-    //- .footer
-    //-     p test footer
+    +back_to_project_home
+
+  //- .footer
+  //- p test footer
