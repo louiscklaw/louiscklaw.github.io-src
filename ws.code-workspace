@@ -7,5 +7,7 @@
 			"path": "/home/logic/_workspace/louiscklaw.github.io"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "louiscklaw.github.io"
+	}
 }
