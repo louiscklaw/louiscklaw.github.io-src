@@ -38,11 +38,8 @@ function css() {
 function js() {
   return src(["client/templates/*.js"], {
     sourcemaps: true
-  } )
-    .pipe( order( [
-      '_*.js',
-      '*.js'
-    ] ) )
+  })
+    .pipe(order(["_*.js", "*.js"]))
     .pipe(debug())
     .pipe(concat("app.js"))
     .pipe(
