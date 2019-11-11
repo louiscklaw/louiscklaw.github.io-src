@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp_regen": "nodemon -w ./client -w ./gulpfile.js --ext '*' --exec gulp",
-    "push_all": "git push --all && cd ../louiscklaw.github.io && git push --all"
+    "push_all": "git push --all && cd ../louiscklaw.github.io && git push --all",
+    "copy_docs": "cp -R ./docs/* ../louiscklaw.github.io"
   },
   "keywords": [],
   "author": "",
