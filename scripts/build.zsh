@@ -16,7 +16,7 @@ pushd /tmp
   mkdir -p portfolio-tmp-build
   pushd portfolio-tmp-build
 
-    git clone --depth=10 git@github.com:louiscklaw/louiscklaw.github.io.git
+    git clone --depth=1 git@github.com:louiscklaw/louiscklaw.github.io.git
     pushd louiscklaw.github.io
       git checkout master
       git branch -D gh-pages || true
