@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://examplesite.com/about/</loc>
+    <lastmod>2021-10-09T12:25:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/dir1/</loc>
+    <lastmod>2021-10-09T12:25:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/quote/first/</loc>
+    <lastmod>2021-10-09T12:25:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/</loc>
+    <lastmod>2021-10-09T12:25:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/dir1/happy/ness/</loc>
+    <lastmod>2021-10-09T12:25:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/quote/</loc>
+    <lastmod>2021-10-09T12:25:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/quote/second/</loc>
+    <lastmod>2021-10-09T12:25:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/dir1/secondpost/</loc>
+    <lastmod>2021-10-09T12:25:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/dir1/helloworld/</loc>
+    <lastmod>2021-10-09T12:15:17+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/</loc>
+  </url>
+  
+</urlset>
