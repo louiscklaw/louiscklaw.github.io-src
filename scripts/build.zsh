@@ -24,7 +24,7 @@ pushd /tmp
       git rm -rf . || true
 
       echo by hugo-src > README.md
-      cp -r /home/logic/_workspace/hugo-playlist/themes/PaperMod-helloworld/public/* .
+      cp -r /home/logic/_workspace/louiscklaw.github.io-src/public/* .
 
       git add .
       git commit -m"init commit,"
