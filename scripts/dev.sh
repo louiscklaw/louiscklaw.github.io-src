@@ -2,4 +2,4 @@
 
 set -ex
 
-find . |entr -c -s "hugo serve --disableFastRender"
+find . |entr -c -s "hugo serve -D --disableFastRender"
