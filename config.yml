@@ -1,5 +1,5 @@
 baseURL: "https://louiscklaw.github.io/"
-title: ExampleSite
+title: Louis portfolio
 paginate: 5
 theme: PaperMod
 
@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Louis portfolio
+  description: "Louis portfolio description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -50,21 +50,21 @@ params:
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
+    icon: /images/logo.png
     iconHeight: 35
 
-  # profile-mode
+  # profile-modes
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
+    enabled: true # needs to be explicitly set
+    title: Louis portfolio
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
-        url: posts
+      - name: Projects
+        url: projects
       - name: Tags
         url: tags
 
