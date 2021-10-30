@@ -29,8 +29,6 @@ pushd /tmp
       git add .
       git commit -m"init commit,"
       git push --set-upstream origin gh-pages -f
-
-
     popd
   popd
 popd
