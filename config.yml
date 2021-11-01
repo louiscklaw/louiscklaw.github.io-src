@@ -1,6 +1,6 @@
 baseURL: "https://louiscklaw.github.io/"
 title: Louis portfolio
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
