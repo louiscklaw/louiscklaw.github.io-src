@@ -56,11 +56,11 @@ params:
   # profile-modes
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Louis portfolio
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
+    title: "Louis portfolio"
+    subtitle: "This is louis portfolio"
+    imageUrl: "https://avatars.githubusercontent.com/u/1376093?v=4"
+    imageWidth: 180
+    imageHeight: 180
     imageTitle: my image
     buttons:
       - name: Projects
@@ -71,7 +71,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: This is louis portfolio
+    Content: "This is louis portfolio"
 
   socialIcons:
     - name: twitter
@@ -112,6 +112,10 @@ params:
 
 menu:
   main:
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 5
     - identifier: categories
       name: categories
       url: /categories/
@@ -121,8 +125,8 @@ menu:
       url: /tags/
       weight: 20
     - identifier: example
-      name: example.org
-      url: https://example.org
+      name: louiscklaw.github.io
+      url: https://louiscklaw.github.io
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
