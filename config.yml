@@ -79,7 +79,13 @@ params:
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/louiscklaw"
+    - name: telegram
+      url: "https://github.com/louiscklaw"
+    - name: gitter
+      url: "https://github.com/louiscklaw"
+    - name: slack
+      url: "https://github.com/louiscklaw"
 
   analytics:
     google:
