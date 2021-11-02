@@ -8,6 +8,23 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+defaultContentLanguage: en
+
+languages:
+  en:
+    params:
+      linkedin: https://linkedin.com/whoever
+    title: louis's portfolio
+    weight: 1
+
+  zh:
+    params:
+      linkedin: https://linkedin.com/fr/whoever
+      navigation:
+        help: Aide
+    title: louis 的 portfolio
+    weight: 2
+
 googleAnalytics: UA-123-45
 
 minify:
