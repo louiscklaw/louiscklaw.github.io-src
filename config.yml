@@ -1,4 +1,4 @@
-baseURL: "https://louiscklaw.github.io/"
+baseURL: 'https://louiscklaw.github.io/'
 title: Louis portfolio
 paginate: 10
 theme: PaperMod
@@ -34,12 +34,12 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Louis portfolio
-  description: "Louis portfolio"
+  description: 'Louis portfolio'
   keywords: [Electronics, Javascript, Portfolio, Blog]
-  author: Me
+  author: louiscklaw
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  images: ['<link or path of image for opengraph, twitter-cards>']
+  DateFormat: 'January 2, 2006'
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -59,23 +59,23 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: '<link / abs url>'
+    favicon16x16: '<link / abs url>'
+    favicon32x32: '<link / abs url>'
+    apple_touch_icon: '<link / abs url>'
+    safari_pinned_tab: '<link / abs url>'
 
   label:
-    text: "Home"
+    text: 'Home'
     icon: /images/logo.png
     iconHeight: 35
 
   # profile-modes
   profileMode:
     enabled: true # needs to be explicitly set
-    title: "Louis portfolio"
-    subtitle: "This is louis portfolio"
-    imageUrl: "https://avatars.githubusercontent.com/u/1376093?v=4"
+    title: 'Louis portfolio'
+    subtitle: 'This is louis portfolio'
+    imageUrl: 'https://avatars.githubusercontent.com/u/1376093?v=4'
     imageWidth: 180
     imageHeight: 180
     imageTitle: my image
@@ -88,29 +88,29 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: "This is louis portfolio"
+    Content: 'This is louis portfolio'
 
   socialIcons:
     - name: facebook
-      url: "https://stackoverflow.com"
+      url: 'https://stackoverflow.com'
     - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: 'https://stackoverflow.com'
     - name: github
-      url: "https://github.com/louiscklaw"
+      url: 'https://github.com/louiscklaw'
     - name: telegram
-      url: "https://github.com/louiscklaw"
+      url: 'https://github.com/louiscklaw'
     - name: whatsapp
-      url: "https://github.com/louiscklaw"
+      url: 'https://github.com/louiscklaw'
     - name: slack
-      url: "https://github.com/louiscklaw"
+      url: 'https://github.com/louiscklaw'
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: 'XYZabc'
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: 'XYZabc'
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: 'XYZabc'
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -118,8 +118,8 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    URL: 'https://github.com/<path_to_repo>/content'
+    Text: 'Suggest Changes' # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -131,7 +131,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ['title', 'permalink', 'summary', 'content']
 
 menu:
   main:
