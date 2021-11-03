@@ -2,7 +2,8 @@
 <html lang="{{ .Site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
   <head>
-      {{- partial "head.html" . }}
+    {{- partial "head.html" . }}
+    {{- partial "main_scss.html" . }}
   </head>
 
   <body class="
@@ -14,7 +15,7 @@
     {{- end -}}
     " id="top">
       {{- partialCached "header.html" . .Page -}}
-      
+
       {{- block "main" . }}{{ end }}
 
       {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
