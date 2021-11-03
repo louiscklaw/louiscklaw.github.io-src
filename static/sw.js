@@ -18,6 +18,7 @@ let cacheStaticContent = () => {
   request.destination === "style" ||
   // JavaScript
   request.destination === "js" ||
+  request.destination === "assets" ||
   // Web Workers
   request.destination === "worker";
 
@@ -40,6 +41,8 @@ cachePage = () => {
   workbox.precaching.precacheAndRoute([
     { url: '/' },
     // { url: '/projects/helloworld/' },
+    { url: '/en/' },
+    { url: '/zh-tw/' },
     { url: '/projects/' },
     { url: '/projects/react-native-tryout/' },
   ])
