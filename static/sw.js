@@ -12,7 +12,8 @@ let cacheStaticContent = () => {
 
   const matchCallback = ({ request }) =>
   // image
-  request.destination === "image" ||
+  request.destination === "icon" ||
+  request.destination === "images" ||
   // CSS
   request.destination === "style" ||
   // JavaScript
@@ -39,6 +40,7 @@ cachePage = () => {
   workbox.precaching.precacheAndRoute([
     { url: '/' },
     // { url: '/projects/helloworld/' },
+    { url: '/projects/' },
     { url: '/projects/react-native-tryout/' },
   ])
 }
