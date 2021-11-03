@@ -1,17 +1,12 @@
-+++
-title = "my portfolio"
-description = "the making of my portfolio"
-tags = [
-  "hugo",
-  "javascript",
-  "cypress",
-  "workbox",
-]
-+++
+---
+title: 'my portfolio'
+description: 'the making of my portfolio'
+tags: ['hugo', 'javascript', 'cypress', 'workbox']
+---
 
 ## <!--more-->
 
-## BACKGROUND INFORMATION:
+## 背景資料:
 
 This is my portfolio. This website contains my project information.
 
@@ -30,11 +25,6 @@ explain development flow here Build -> Test -> Merge -> Deploy
 ## SOME INFORMATION:
 
 production site: https://louiscklaw.github.io/
-
-## tools used:
-
-- hugo
-- cypress
 
 ## REFERENCES / REPOSITORIES:
 

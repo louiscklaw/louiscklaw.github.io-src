@@ -1,0 +1,16 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "cypress-visual-regression": "^1.6.2"
+  }
+}
