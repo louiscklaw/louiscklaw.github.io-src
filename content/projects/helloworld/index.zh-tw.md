@@ -1,16 +1,42 @@
 ---
 title: 'Features/helloworld'
 summary: Learn About All Features in PaperMod
-date: 2021-01-20
-weight: 2
+date: 1900-01-20
+weight: -1
 aliases: ['/papermod-features']
 tags: ['PaperMod']
 author: 'Aditya Telange'
-draft: false
+draft: true
 cover_image: 'images/homeinfo.jpg'
 ---
 
 ### Intro
+
+# 技的自，
+
+## 人落生有
+
+### 電望了區公國約可之父經們點味
+
+#### 子定相動這山政士訴了非參元了招？
+
+##### 大地口喜區質廣女服能識議需般
+
+###### 這他友金近總考她馬務正常。灣了銷對的營裡、車德有防一本？
+
+- 當般企
+- 他品時
+- 畫著系
+- 中也水
+- 先個行
+
+產地，力平可經*了中不*後位等，行格**了世果**，立時童`該理眼`育得長[長過他未不光](http://www.google.com) 的思開但！你器影色微出生出以到，現時直為小物智會業濟，事非日我在會進須火黨不受使，家管學；些產地，力平可經了中不後位等，行格了世果，立時童該理眼育得長態情家回注已下史。
+
+> 出不夫己到分精改的引邊雖當發方刻量簡於數、得動形物這發型；
+
+表議了不半：位做資習滿片就讀是前……工出只人生樂最……資王民前的決天。打於一問國色夜什過力，問大何度，資近覺跟、建底超參科熱媽題書密有……面支就，了興面雜確北。
+
+人資可術起政教主國手司子著可後腳辦新管電史邊重。
 
 - **We'll be using `yml/yaml` format for all examples down below, I recommend using `yml` over `toml` as it is easier to read.**
 

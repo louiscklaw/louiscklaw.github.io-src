@@ -1,13 +1,13 @@
 ---
-title: "Features/helloworld"
+title: 'Features/helloworld'
 summary: Learn About All Features in PaperMod
-date: 2021-01-20
-weight: 2
-aliases: ["/papermod-features"]
-tags: ["PaperMod"]
-author: "Aditya Telange"
-draft: false
-cover_image: "images/homeinfo.jpg"
+date: 1900-01-20
+weight: -1
+aliases: ['/papermod-features']
+tags: ['PaperMod']
+author: 'Aditya Telange'
+draft: true
+cover_image: 'images/homeinfo.jpg'
 ---
 
 ### Intro
@@ -83,9 +83,9 @@ and add the following to it
 
 ```yml
 ---
-title: "Archive"
-layout: "archives"
-url: "/archives/"
+title: 'Archive'
+layout: 'archives'
+url: '/archives/'
 summary: archives
 ---
 ```
@@ -178,11 +178,11 @@ Create a page with `search.md` in `content` directory with following content
 
 ```yml
 ---
-title: "Search" # in any language you want
-layout: "search" # is necessary
+title: 'Search' # in any language you want
+layout: 'search' # is necessary
 # url: "/archive"
 # description: "Description for Search"
-summary: "search"
+summary: 'search'
 ---
 ```
 
@@ -218,7 +218,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ['title', 'permalink', 'summary', 'content']
 ```
 
 ---
@@ -235,11 +235,11 @@ In post's page-variables add :
 
 ```yml
 cover:
-  image: "<image path/url>"
+  image: '<image path/url>'
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-  alt: "<alt text>"
-  caption: "<text>"
+  alt: '<alt text>'
+  caption: '<text>'
   relative: false # To use relative path for cover image, used in hugo Page-bundles
 ```
 
@@ -335,8 +335,8 @@ For site config use:
 ```yml
 Params:
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    URL: 'https://github.com/<path_to_repo>/content'
+    Text: 'Suggest Changes' # edit text
     appendFilePath: true # to append file path to Edit link
 ```
 
@@ -345,8 +345,8 @@ Can be modified for individual pages
 ```yml
 ---
 editPost:
-  URL: "https://github.com/<path_to_repo>/content"
-  Text: "Suggest Changes" # edit text
+  URL: 'https://github.com/<path_to_repo>/content'
+  Text: 'Suggest Changes' # edit text
   appendFilePath: true # to append file path to Edit link
 ---
 ```
@@ -383,7 +383,7 @@ To Use multiple authors for a post, in post-variables:
 
 ```yml
 ---
-author: ["Me", "You"]
+author: ['Me', 'You']
 ---
 ```
 
@@ -391,7 +391,7 @@ To use Multiple Authors Site-wide, in `config.yml`:
 
 ```yml
 params:
-  author: ["Me", "You"]
+  author: ['Me', 'You']
 ```
 
 ---
