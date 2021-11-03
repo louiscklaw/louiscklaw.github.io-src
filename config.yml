@@ -13,15 +13,13 @@ defaultContentLanguage: en
 languages:
   en:
     params:
-      linkedin: https://linkedin.com/whoever
+      hello: world
     title: louis's portfolio
     weight: 1
 
-  zh:
+  zh-tw:
     params:
-      linkedin: https://linkedin.com/fr/whoever
-      navigation:
-        help: Aide
+      hello: world
     title: louis 的 portfolio
     weight: 2
 
@@ -83,9 +81,9 @@ params:
     imageHeight: 180
     imageTitle: my image
     buttons:
-      - name: Projects
+      - name: projects
         url: projects
-      - name: Tags
+      - name: tags
         url: tags
 
   # home-info mode
