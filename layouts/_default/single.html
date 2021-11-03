@@ -31,7 +31,7 @@
     {{- if (.Param "ShowToc") }}
       {{- partial "toc.html" . }}
     {{- end }}
-  
+
     {{- if .Content }}
     <div class="post-content">
       {{- if not (.Param "disableAnchoredHeadings") }}
@@ -41,7 +41,7 @@
       {{ end }}
     </div>
     {{- end }}
-  
+
     <footer class="post-footer">
       {{- if .Params.tags }}
         <ul class="post-tags">
@@ -57,7 +57,7 @@
         {{- partial "share_icons.html" . -}}
       {{- end }}
     </footer>
-  
+
     {{- if (.Param "comments") }}
       {{- partial "comments.html" . }}
     {{- end }}

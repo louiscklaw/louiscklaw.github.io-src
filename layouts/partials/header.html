@@ -3,11 +3,11 @@
 {{- /* theme is light */}}
 {{- if (eq .Site.Params.defaultTheme "light") }}
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    }
-
+  if (localStorage.getItem("pref-theme") === "dark") {
+    document.body.classList.add('dark');
+  }
 </script>
+
 {{- /* theme is dark */}}
 {{- else if (eq .Site.Params.defaultTheme "dark") }}
 <script>
@@ -101,21 +101,23 @@
         </div>
         {{- $currentPage := . }}
         <ul id="menu">
-            {{- range .Site.Menus.main }}
+          {{- range .Site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
             {{- $is_search := eq ($.Site.GetPage .KeyName).Layout `search` }}
             <li>
-                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
-                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
-                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
-                        {{- .Pre }}
-                        {{- .Name -}}
-                        {{ .Post -}}
-                    </span>
-                </a>
+              <a
+                href="{{ .URL | absLangURL }}"
+                title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}" {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}
+                >
+                <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                  {{- .Pre }}
+                  {{- i18n .Name | default .Name -}}
+                  {{ .Post -}}
+                </span>
+              </a>
             </li>
-            {{- end }}
+          {{- end }}
         </ul>
     </nav>
 </header>

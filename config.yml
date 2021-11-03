@@ -34,7 +34,6 @@ params:
   title: Louis portfolio
   description: 'Louis portfolio'
   keywords: [Electronics, Javascript, Portfolio, Blog]
-  author: louiscklaw
   # author: ["Me", "You"] # multiple authors
   images:
     [
@@ -43,7 +42,7 @@ params:
   DateFormat: 'January 2, 2006'
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
+  displayFullLangName: false
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true

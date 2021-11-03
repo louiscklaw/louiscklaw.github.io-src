@@ -4,8 +4,8 @@ summary: Learn About All Features in PaperMod
 date: 1900-01-20
 weight: -1
 aliases: ['/papermod-features']
-tags: ['PaperMod']
-author: 'Aditya Telange'
+tags: ['PaperMod', 'helloworld']
+# author: 'louiscklaw'
 draft: true
 cover_image: 'images/homeinfo.jpg'
 ---

@@ -26,3 +26,12 @@
 
 - id: projects
   translation: '手作仔'
+
+- id: Projects
+  translation: '手作仔'
+
+- id: categories
+  translation: '分類'
+
+- id: tags
+  translation: '標籤'
