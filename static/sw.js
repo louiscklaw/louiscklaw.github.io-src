@@ -38,7 +38,7 @@ cacheStaticContent()
 cachePage = () => {
   workbox.precaching.precacheAndRoute([
     { url: '/' },
-    { url: '/projects/helloworld/' },
+    // { url: '/projects/helloworld/' },
     { url: '/projects/react-native-tryout/' },
   ])
 }
