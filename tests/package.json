@@ -4,7 +4,10 @@
   "description": "",
   "main": "helloworld.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "regression:debug": "cypress open --env type=actual --config screenshotsFolder=cypress/snapshots/base",
+    "regression:take_base": "cypress run --env type=base --config screenshotsFolder=cypress/snapshots/base,testFiles=\"./helloworld.spec.js\"",
+    "regression:actual": "cypress run --env type=actual --config screenshotsFolder=cypress/snapshots/base,testFiles=\"./helloworld.spec.js\""
   },
   "keywords": [],
   "author": "",

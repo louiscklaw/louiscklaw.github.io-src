@@ -1,4 +1,7 @@
 {
   "screenshotsFolder": "./cypress/snapshots/actual",
-  "trashAssetsBeforeRuns": true
+  "trashAssetsBeforeRuns": false,
+  "env": {
+    "failSilently": false
+  }
 }
