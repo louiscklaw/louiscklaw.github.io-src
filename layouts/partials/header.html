@@ -53,7 +53,7 @@
             </a>
             {{- end }}
             <span class="logo-switches">
-                {{- if (not .Site.Params.disableThemeToggle) }}
+              {{- if (not .Site.Params.disableThemeToggle) }}
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -74,29 +74,40 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+
                 {{- end }}
 
                 {{- $lang := .Lang}}
                 {{- $separator := or $label_text (not .Site.Params.disableThemeToggle)}}
                 {{- with $.Site.Home.AllTranslations }}
+
+
                 <ul class="lang-switch">
-                    {{- if $separator }}<li>|</li>{{ end }}
+                    {{- if $separator }}
+                      <li>|</li>
+                    {{ end }}
+
+
+
                     {{- range . -}}
-                    {{- if ne $lang .Lang }}
-                    <li>
-                        <a href="{{- .Permalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
-                            aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
-                            {{- if (and $.Site.Params.displayFullLangName (.Language.LanguageName)) }}
-                            {{- .Language.LanguageName | emojify -}}
-                            {{- else }}
-                            {{- .Lang | title -}}
-                            {{- end -}}
-                        </a>
-                    </li>
-                    {{- end -}}
+                      {{- if ne $lang .Lang }}
+                        <li>
+                          <a id="lang-toggle"  href="{{- .Permalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}" aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                          </a>
+                          <a href="{{- .Permalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}" aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
+                              {{- if (and $.Site.Params.displayFullLangName (.Language.LanguageName)) }}
+                                {{- .Language.LanguageName | emojify -}}
+                              {{- else }}
+                                {{- i18n .Lang | default .Lang  -}}
+                              {{- end -}}
+
+                          </a>
+                        </li>
+                      {{- end -}}
                     {{- end}}
                 </ul>
-                {{- end }}
+              {{- end }}
             </span>
         </div>
         {{- $currentPage := . }}
