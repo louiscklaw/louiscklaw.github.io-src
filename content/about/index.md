@@ -1,18 +1,32 @@
 +++
-author = "lee.so"
-title = "Rich Content"
+title = "About Louis"
 date = "2019-03-10"
-description = "A brief description of Hugo Shortcodes"
-tags = [
-    "shortcodes",
-    "privacy",
-]
+description = "Something about me"
 +++
 
-Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes) for rich content, along with a [Privacy Config](https://gohugo.io/about/hugo-and-gdpr/) and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
+## Languages:
 
-## <!--more-->
+- Cantonese, English, Mandarin
+- JavaScript({{< githubRepoSearch "react" "react" >}},{{< githubRepoSearch "gatsbyjs" "gatsbyjs" >}}, {{< githubRepoSearch "php" "php">}}, {{< githubRepoSearch "c" >}} )
+- {{< githubRepoSearch "python" "python" >}}, {{< githubRepoSearch "appium" "appium" >}}
 
-## YouTube Privacy Enhanced Shortcode
+## Things to do when i free :
 
-{{< youtube ZJthWmvUzzc >}}
+- Electronic stuff (e.g. {{< githubRepoSearch "buildroot" "buildroot" >}}...)
+- Some software (e.g. {{< githubRepoSearch "javascript" "javascript" >}}...)
+- Some hardware {{< githublink "Do some PCB layout" "https://github.com/louiscklaw?tab=repositories&q=kicad&type=&language=&sort=" >}}...
+
+- Some making/modeling,
+- Web page scraping (e.g. {{< githubRepoSearch "puppeteer" "puppeteer" >}}...)
+- github searching
+
+## Other skills:
+
+- Linux management
+- Web frontend ({{< githubRepoSearch "bulma" "bulma" >}}/materialize.css/next/gatsby)
+- SQL (MySQL/MariaDB), Realtime DB ({{< githubRepoSearch "firebase" "firebase" >}})
+- Desktop applications (kivy)
+- Serverless (Firebase Cloud Functions), PaaS (Heroku)
+- Docker with docker-compose, nginx, laravel
+- OCR/captcha study(tesseract)
+- KVM (Performance optimization, GPU Passthrough by OVMF)
