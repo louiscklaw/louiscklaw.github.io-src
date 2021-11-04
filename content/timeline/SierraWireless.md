@@ -1,19 +1,32 @@
 ---
 date: 2019-10-08
 linktitle: Sierrawireless
-type:
-  - post
-  - posts
 title: Sierrawireless
-eventname: Validation engineer
+eventname: Test/Validation engineer
 eventlocation: Hong Kong
 weight: 10
 ---
 
-## Abstract
+### Description/Job Summary
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut sem nulla. Ac felis donec et odio pellentesque. Est placerat in egestas erat imperdiet sed euismod nisi. Vestibulum morbi blandit cursus risus. At volutpat diam ut venenatis tellus. Vel turpis nunc eget lorem. Sagittis purus sit amet volutpat consequat mauris nunc congue nisi. Diam sit amet nisl suscipit. Eu scelerisque felis imperdiet proin fermentum leo vel orci porta.
+> We have an opportunity for a Software Test Engineer, Co-op to join our Module Integration team in Richmond. In this role, you will gain experience in wireless data communication modems, wireless network data communication protocols, development of software test automation scripts, software test methodology & techniques, and commercial software development life cycle.
 
-Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis. Tristique nulla aliquet enim tortor at auctor urna nunc id. Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. Ultrices tincidunt arcu non sodales neque. Malesuada fames ac turpis egestas integer eget aliquet. Eu nisl nunc mi ipsum faucibus vitae aliquet nec. Molestie at elementum eu facilisis sed odio morbi quis commodo. Risus in hendrerit gravida rutrum quisque. Ac placerat vestibulum lectus mauris ultrices eros in cursus. Nunc mattis enim ut tellus elementum sagittis vitae et leo. Leo vel orci porta non pulvinar neque laoreet suspendisse. Condimentum lacinia quis vel eros donec. Mi bibendum neque egestas congue quisque egestas diam in arcu. Ultricies integer quis auctor elit sed. Gravida dictum fusce ut placerat. Magna fermentum iaculis eu non diam phasellus vestibulum lorem.
+### Responsibilities
 
-[LINK](https://github.com/gohugoio/hugo/)
+- Execute manual and automated tests for various products
+- Develop manual and automated tests
+- Analyze requirements and develop comprehensive test cases
+- Analyze defects, create clear bug reports, and verify bug fixes
+- Assist and collaborate closely with development team and other teams to troubleshoot technical issues
+- Communicate well, track testing progress and write accurate test reports
+- Assist in mentoring and training new co-op students
+- Required Education, Experience & Competencies
+- Strong written and oral communication skills
+- Experience in writing test plans and complex test cases
+- Software test development, programming, or scripting experience
+- Knowledge of data communication, networking and protocols
+- Ability to work effectively both independently and within a team environment
+- Desired Education, Experience & Competencies
+- Knowledge of Linux operating system and Linux command line usage is an asset
+
+{{< NewWindowLink "About sierra wireless" "https://www.sierrawireless.com/company/" >}}
