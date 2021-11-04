@@ -46,6 +46,7 @@ cachePage = () => {
     { url: '/projects/' },
     { url: '/about/' },
     { url: '/timeline/' },
+    { url: '/tags/' },
     { url: '/projects/react-native-tryout/' },
   ])
 }
