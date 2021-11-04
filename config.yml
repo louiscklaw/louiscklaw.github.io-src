@@ -20,7 +20,7 @@ languages:
   zh-tw:
     params:
       hello: world
-    title: louis 的 portfolio
+    title: louis 個 portfolio
     weight: 2
 
 googleAnalytics: UA-123-45

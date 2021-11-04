@@ -35,3 +35,6 @@
 
 - id: tags
   translation: '標籤'
+
+- id: about
+  translation: '小小野關於我'
