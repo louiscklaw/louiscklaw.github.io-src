@@ -10,6 +10,13 @@ draft: true
 cover_image: 'images/homeinfo.jpg'
 ---
 
+{{< mermaid >}}
+sequenceDiagram
+  Alice->>John: Hello John, how are you?
+  John-->>Alice: Great!
+  Alice-)John: See you later!
+{{< /mermaid >}}
+
 ### Intro
 
 - **We'll be using `yml/yaml` format for all examples down below, I recommend using `yml` over `toml` as it is easier to read.**
