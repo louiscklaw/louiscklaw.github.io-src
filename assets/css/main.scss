@@ -15,22 +15,27 @@
 }
 @media screen and (min-width: 1920px) {
   .page-header {
-    max-width: calc(var(--main-width) + var(--gap) * 2);
+    max-width: 95vw;
   }
 
   .articles-container {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20vw);
+    justify-content: space-between;
+    grid-gap: 20px;
+  }
+
+  .articles-container::after {
+    content: '';
+    flex: auto;
   }
 
   .projects-main {
-    max-width: 100vw !important;
+    max-width: 95vw !important;
   }
 
   .post-entry {
-    width: 25vw;
+    width: 20vw;
     height: 250px;
   }
 
@@ -41,6 +46,12 @@
 
   .footer {
     height: 20vh;
+  }
+
+  .page-footer {
+    .next {
+      margin: 2rem auto;
+    }
   }
 }
 

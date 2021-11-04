@@ -1,11 +1,8 @@
-+++
-title = "Tradingview Dashboard"
-description = "A simple page to monitor stock, while data provided by trading view"
-tags = [
-    "react",
-    "javascript",
-]
-+++
+---
+title: "Tradingview 報告板"
+description: "A simple page to monitor stock, while data provided by trading view"
+tags: [ "react", "javascript"]
+---
 
 ![sample screenshot](./tradingview-dashboard.png)
 
