@@ -3,10 +3,10 @@
 
   <head>
     {{- partial "head.html" . }}
-    {{- partial "main_scss.html" . }}
 
     <!-- {{- partial "logrocket.html" . }} -->
     {{- partial "hotjar.html" . }}
+    {{- partial "main_scss.html" . }}
 
   </head>
 
@@ -23,6 +23,7 @@
       {{- block "main" . }}{{ end }}
 
       {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
-  </body>
 
+    {{- partial "service-worker.html" . }}
+  </body>
 </html>

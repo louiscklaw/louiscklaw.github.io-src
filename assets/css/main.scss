@@ -1,3 +1,8 @@
+/* #F0A500 */
+/* #334756 */
+/* #082032 */
+/* #000000 */
+
 @media (prefers-reduced-motion) {
 }
 @media screen and (max-width: 768px) {
@@ -30,22 +35,8 @@
   }
 
   :root {
-    --gap: 24px;
-    --content-gap: 20px;
-    --nav-width: 1024px;
-    --main-width: 720px;
     --header-height: 60px;
     --footer-height: 20vh;
-    --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --content: rgb(31, 31, 31);
-    --hljs-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
   }
 
   .footer {
@@ -53,8 +44,10 @@
   }
 }
 
-.profile_inner {
-  img {
-    box-shadow: 0px 0px 10px darkgrey;
-  }
+.profile_inner img {
+  box-shadow: 0px 0px 10px darkgrey;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
 }
