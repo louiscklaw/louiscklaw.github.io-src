@@ -4,4 +4,4 @@ set -ex
 
 rm -rf public || true
 
-find . |entr -c -s "hugo serve -D --disableFastRender"
+find . |entr -c -s "hugo  -D serve  --disableFastRender"
