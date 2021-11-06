@@ -19,6 +19,13 @@ This is a tryout of homemake embedded linux project using allwinner v3s chips in
 
 {{< figure src="./react-native-section-alphabet-list.gif" title="react-native-section-alphabet-list" height="200px" >}}
 
+React Native Walkthrough Tooltip
+{{< figure src="./ExpoReactNativeWalkthroughTooltipTryout.gif" title="ExpoReactNativeWalkthroughTooltipTryout" height="200px" >}}
+
+rn-swipeable-panel
+
+{{< figure src="./ReactNativeSwipeablePanel.gif" title="ReactNativeSwipeablePanel" height="200px" >}}
+
 
 ### repo:
 
