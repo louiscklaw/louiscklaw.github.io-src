@@ -27,6 +27,9 @@ rn-swipeable-panel
 {{< figure src="./ReactNativeSwipeablePanel.gif" title="ReactNativeSwipeablePanel" height="200px" >}}
 
 
+react-native-dots-pagination
+{{< figure src="./react-native-dots-pagination.gif" title="react-native-dots-pagination" height="200px" >}}
+
 ### repo:
 
 {{< GithubRepoLink "louiscklaw/expo-playlist" "louiscklaw/expo-playlist" >}}
