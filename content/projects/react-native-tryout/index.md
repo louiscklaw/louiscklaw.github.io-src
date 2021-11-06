@@ -17,3 +17,9 @@ This is a tryout of homemake embedded linux project using allwinner v3s chips in
 
 {{< figure src="./HorizontalStepIndicator.gif" title="HorizontalStepIndicator" height="200px" >}}
 
+{{< figure src="./react-native-section-alphabet-list.gif" title="react-native-section-alphabet-list" height="200px" >}}
+
+
+### repo:
+
+{{< GithubRepoLink "louiscklaw/expo-playlist" "louiscklaw/expo-playlist" >}}
