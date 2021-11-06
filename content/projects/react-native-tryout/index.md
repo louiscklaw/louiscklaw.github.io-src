@@ -30,7 +30,6 @@ rn-swipeable-panel
 react-native-dots-pagination
 {{< figure src="./react-native-dots-pagination.gif" title="react-native-dots-pagination" height="200px" >}}
 
-ExpoReactNativeCurvedBottomBarTryout
 {{< figure src="./ExpoReactNativeCurvedBottomBarTryout.gif" title="ExpoReactNativeCurvedBottomBarTryout" height="200px" >}}
 
 ### repo:
