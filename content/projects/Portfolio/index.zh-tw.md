@@ -1,5 +1,5 @@
 ---
-title: 'my portfolio'
+title: '我個 portfolio'
 description: 'the making of my portfolio'
 tags: ['hugo', 'javascript', 'cypress', 'workbox']
 ---
@@ -8,9 +8,9 @@ tags: ['hugo', 'javascript', 'cypress', 'workbox']
 
 ## 背景資料:
 
-This is my portfolio. This website contains my project information.
+呢個係我個 portfolio， 簡簡單單寫個 readme 咁解。
 
-## BUILD FLOW:
+## build flow:
 
 explain development flow here Build -> Test -> Merge -> Deploy
 
@@ -24,8 +24,10 @@ explain development flow here Build -> Test -> Merge -> Deploy
 
 ## SOME INFORMATION:
 
-production site: https://louiscklaw.github.io/
+{{< NewWindowLink "https://louiscklaw.github.io" >}}
 
-## REFERENCES / REPOSITORIES:
+## references / repositories:
 
-https://github.com/louiscklaw/portfolio-gatsby
+
+- old tryout
+  - {{< GithubRepoLink "louiscklaw/portfolio-gatsby"  "louiscklaw/portfolio-gatsby" >}}

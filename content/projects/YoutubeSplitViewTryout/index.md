@@ -2,7 +2,7 @@
 title = "youtube split view tryout"
 description = "A brief description of Hugo Shortcodes"
 tags = [
-    "shortcodes",
+    "javascript",
     "privacy",
 ]
 +++

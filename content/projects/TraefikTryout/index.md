@@ -1,6 +1,7 @@
 +++
 title = "Tradingview Dashboard"
 description = "A brief description of Hugo Shortcodes"
+draft = true
 tags = [
     "shortcodes",
     "privacy",

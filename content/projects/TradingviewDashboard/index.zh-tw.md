@@ -14,4 +14,4 @@ tags: [ "react", "javascript"]
 
 ## References / repositories:
 
-{{< githubRepoLink "louiscklaw/tradingview-tile-tryout" >}}
+{{< GithubRepoLink "louiscklaw/tradingview-tile-tryout" >}}

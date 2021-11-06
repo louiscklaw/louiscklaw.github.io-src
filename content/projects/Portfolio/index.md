@@ -1,41 +1,51 @@
-+++
-title = "my portfolio"
-description = "the making of my portfolio"
-tags = [
-  "hugo",
-  "javascript",
-  "cypress",
-  "workbox",
-]
-+++
+---
+title: 'my portfolio'
+description: 'the making of my portfolio'
+tags: ['hugo', 'javascript', 'cypress', 'workbox']
+---
 
-## <!--more-->
+![](./screenshot.png)
 
-## BACKGROUND INFORMATION:
+## background information:
 
 This is my portfolio. This website contains my project information.
 
-## BUILD FLOW:
+## build flow:
 
-explain development flow here Build -> Test -> Merge -> Deploy
+In general, the build should be process under 
+  1. build
+  1. test
+  1. merge
+  1. deploy
 
-- Build
-- Test
-  - visual regression test
-    - `$ test/test.sh`
-    - transverse to some key page of the site to get screenshot
-    - compare with the expected one(which is last accepted screenshot)
-    - if the error greater than threshold, regards as fail
+## Test ? how to test ?
 
-## SOME INFORMATION:
+### visual regression test / viewport
 
-production site: https://louiscklaw.github.io/
+{{< WikiLink "viewport" "https://en.wiktionary.org/wiki/viewport" >}} and visual regression is used to test how page look lik under difference device:
+
+#### for example
+| devices ? view port      | screenshot |
+| ----------- | ----------- |
+| ipad_mini      | {{< figure src="./images/cypress_ipad_mini.gif" width="200px">}}       |
+| iphone x   | {{< figure src="./images/cypress_iphone_x.gif" width="200px">}}        |
+| macbook 13   | {{< figure src="./images/cypress_macbook_13.gif" width="200px">}}        |
+ 
+### page transverse
+
+page transverse test is used to simulate user browse the page/apps under test:
+
+#### for example
+| path      | screenshot |
+| ----------- | ----------- |
+| project      | {{< figure src="./images/cypress_page_transverse.gif" width="200px">}}       |
+| project (zh_tw)   | {{< figure src="./images/cypress_iphone_x.gif" width="200px">}}        |
 
 ## tools used:
 
-- hugo
-- cypress
+- {{< NewWindowLink "https://gohugo.io/" >}}
+- {{< NewWindowLink "https://www.cypress.io/" >}}
 
-## REFERENCES / REPOSITORIES:
-
-https://github.com/louiscklaw/portfolio-gatsby
+## references / repositories:
+- current tryout {{< GithubRepoLink "louiscklaw/louiscklaw.github.io-src" "louiscklaw/louiscklaw.github.io-src" >}}
+- old tryout {{< GithubRepoLink "louiscklaw/portfolio-gatsby" "louiscklaw/portfolio-gatsby" >}}
