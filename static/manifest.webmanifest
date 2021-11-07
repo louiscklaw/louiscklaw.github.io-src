@@ -52,8 +52,8 @@
   "start_url": "/?source=pwa",
   "display": "fullscreen",
   "scope": "/",
-  "theme_color": "#3367D6",
-  "background_color": "#3367D6",
+  "theme_color": "#082032",
+  "background_color": "#082032",
   "shortcuts": [
     {
       "name": "louis's portfolio",

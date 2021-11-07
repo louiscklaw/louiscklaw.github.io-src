@@ -1,11 +1,8 @@
 +++
-title = "Tradingview Dashboard"
+title = "TraefikTryout"
 description = "A brief description of Hugo Shortcodes"
 draft = true
-tags = [
-    "shortcodes",
-    "privacy",
-]
+tags = [ "traefik" ]
 +++
 
 ## Purpose
