@@ -27,8 +27,10 @@ pushd /tmp
       cp -r /home/logic/_workspace/louiscklaw.github.io-src/public/* .
 
       git add .
-      git commit -m"init commit,"
-      git push --set-upstream origin gh-pages -f
+      git commit -m"update page,"
+      git push --set-upstream origin gh-pages -f &
     popd
   popd
 popd
+
+wait 
