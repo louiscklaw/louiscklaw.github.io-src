@@ -2,8 +2,8 @@
 title = "appium behave notes"
 description = "A brief description of Hugo Shortcodes"
 tags = [
-    "shortcodes",
-    "privacy",
+    "appium",
+    "javascript",
 ]
 +++
 
